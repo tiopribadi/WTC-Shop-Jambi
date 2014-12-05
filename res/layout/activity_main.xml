@@ -1,0 +1,58 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.Dedi_N_SELISTIO.wtc_shop_jambi.MainActivity"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/WTC_SHOP_JAMBI"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/sec"
+                android:onClick="openSamsung"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/foto0236" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/sec1"
+                android:onClick="openoppo"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/foto0235" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/sec2"
+                android:onClick="openluck_k1"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/foto0237" />
+
+        </LinearLayout>
+    </ScrollView>
+
+

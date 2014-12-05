@@ -1,0 +1,56 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     tools:context="com.Dedi_N_SELISTIO.wtc_shop_jambi.OppoActivity"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/OPPO"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView android:contentDescription="@string/sec5"
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/oppo1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Handphone berjenis smartphone sekarang ini bukan hanya sebagai penunjang kebutuhan berkomunikasi saja, banyak fungsi lain yang lebih menarik yang didapat dari perangkat smartphone. Seperti untuk keperluan permainan, jelajah internet, keperluan bisnis, dan masih banyak lagi fungsi lainnya dengan banyaknya dukungan dari pengembang aplikasi smartphone. Kemunculan Operasi Sistem Android menandai awal mula merebaknya perangkat smartphone. " />
+
+            <ImageView android:contentDescription="@string/sec6"
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/oppo" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sebelumnya perangkat smartphone dikuasai oleh iPhone (Apple), Nokia (Symbian), dan Smartphone berbasis Windows, yang menawarkan fitur-fitur canggih. Kelamahan smartphone dahulu adalah harganya yang relatif mahal, sehingga tidak bisa berkembang pesat di pasaran. Baru setelah lahirnya Android banyak bermunculan perusahaan-perusahaan yang memproduksi smartphone dengan harga yang relatif lebih murah bila dibandingkan dengan pendahulunya. Dari mulai perusahaan yang sudah lama bergelut di bidang Teknologi Mobile seperti Samsung, Sony, LG, Motorola, hingga perusahaan-perusahaan lokal China berlomba-lomba memproduksi perangkat Smartphone." />
+
+        </LinearLayout>
+    </ScrollView>
+
+

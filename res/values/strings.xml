@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTC_SHOP_JAMBI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="WTC_SHOP_JAMBI">WTC_SHOP_JAMBI</string>
+    <string name="sec">sec</string>
+    <string name="sec1">sec1</string>
+    <string name="sec2">sec2</string>
+    <string name="sec3">sec3</string>
+    <string name="title_activity_samsung">SamsungActivity</string>
+    <string name="SAMSUNG">SAMSUNG</string>
+   <string name="Luck_k1">Luck_k1</string>
+    <string name="sec4">sec4</string>
+    <string name="title_activity_oppo">OppoActivity</string>
+    <string name="OPPO">OPPO</string>
+    <string name="sec5">sec5</string>
+    <string name="title_activity_luck__k1">Luck_K1Activity</string>
+     <string name="sec6">sec6</string>
+      <string name="sec7">sec7</string>
+
+</resources>

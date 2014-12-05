@@ -1,0 +1,42 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.Dedi_N_SELISTIO.wtc_shop_jambi.Luck_K1Activity"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Luck_k1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView android:contentDescription="@string/sec6"
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/foto0237" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="awal mula kata komputer dipergunakan untuk memvisualisasikan orang yang mempunyai pekerjaan melakukan perhitungan aritmatika. namun itu sekarng komputer diartika kepada sebuah perangkat mesin tersebut. \n dalam pengertian yang paling mendasar, komputer adalah perangkat yang membantu manusia dalam melakukan berbagai macam perhitungan." />
+
+        </LinearLayout>
+    </ScrollView>
+

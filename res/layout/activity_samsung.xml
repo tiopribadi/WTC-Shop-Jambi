@@ -1,0 +1,60 @@
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+         tools:context="com.Dedi_N_SELISTIO.wtc_shop_jambi.SamsungActivity" 
+        
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SAMSUNG"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView android:contentDescription="@string/sec3"
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/samsung" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samsung \n
+samsung adalah salah satu group perusahaan electronik terbesar dunia. didirikan oleh Lee Byung Chull Pada 1 Maret 1938 di Daegu, Korea,perusahaan ini beroperasi di 58 negara dan memiliki lebih dari 208.000 pekerja
+\n\n"/>
+            <ImageView android:contentDescription="@string/sec4"
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:padding="@dimen/activity_vertical_margin"
+                android:scaleType="fitXY"
+                android:src="@drawable/samsung1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Samsung \n
+Dari awal kami sebagai perusahaan dagang kecil, Samsung berkembang menjadi korporasi kelas dunia dengan bisnis yang meliputi teknologi canggih, semikonduktor, konstruksi pencakar langit dan pabrik, petrokimia, busana, obat, keuangan, hotel, dan banyak lagi. Berbagai penemuan dan produk terobosan kami memungkinkan kami menjadi pemimpin di bidang-bidang ini dan terus-menerus mendorong maju industri. 
+Di Samsung Electronics, kami memandang setiap tantangan sebagai peluang dan yakin bahwa kami sudah tepat diposisikan sebagai salah satu pemimpin yang diakui dunia industri teknologi digital. 
+Komitmen kami untuk menjadi yang terbaik didunia membuat kami sebagai No.1 dalam menguasai pangsa pasar global untuk 13 produk kami, termasuk semikonduktor, TFT-LCD, monitor, dan telepon seluler CDMA.
+Untuk itu, kami membuat kemajuan bersejarah dalam penelitian dan pengembangan seluruh lini semikonduktor kami, termasuk memori flash dan semikonduktor khusus non-memori, DRAM dan SRAM, serta memproduksi LCD, telepon seluler, dan peralatan digital terbaik di kelasnya, dan banyak lagi. 
+\n \n " />
+
+        </LinearLayout>
+    </ScrollView>
+
+
